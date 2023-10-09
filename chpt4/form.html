@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1> Travel form for trip</h1>
+        <form action="form.php">
+            <!-- allows us to take user text input -->
+            <input type="text" placeholder="Enter your name"><br>  
+            
+            <!-- kinda like primary key -->
+            <label for="sectionida">
+                <input type="radio" value="Section A" name="Section" id="sectionid">dfn
+            </label>
+            <label for="sectionb">
+                <input type="radio" value="Section B" name="Section" id="sectionid">fndd
+            </label>
+            <label for="sectoin c">
+                <input type="radio" value="Section C" name="Section" id="sectionid">fndd
+            </label>
+            <br>
+            <!-- id -> roll nos -->
+            <!-- class -> houses, nalanda wallabhi... -->
+            <!-- name ->  backend segregates eleements via name -->
+            <!-- explore md reference -->
+            <input type="checkbox" name="Want food mate?" id="foodcanteen" class="red">
+            <!-- introduces checkbox for canteen option -->
+            <label for="foodcanteen">Want Food canteen Card?</label>
+            
+            <br>
+            <br>
+            <!-- normal textbox -->
+            <textarea name="explain" placeholder="explain what u want to do" cols="30" rows="10"></textarea>
+
+            <!-- drop down select options -->
+            <select name="car" id="car">
+                <option value="no-car">Select ur car</option>
+                <option value="omni">omni</option>
+                <option value="bugatti">bugatti</option>
+                <option value="lambo">lambo</option>
+                <option value="austin martin">austin martin</option>
+                <option value="porsche">porsche</option>
+            </select>
+        </form>
+</body>
+</html>
